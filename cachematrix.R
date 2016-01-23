@@ -37,7 +37,7 @@ cacheSolve <- function(x, ...) {
   # Check the object to see if there is a cacheed version of the matrix that is already stored
   # If there is no cahed version stored compute the inverse and cache the inverse in the object
   # Check to see if there is slready a cache imbedded in the object
-  # If there is already a chaced value returnit
+  # If there is already a chaced value return it
   # Else compute the value and set the object cache
 
   cache <- x$getcache()
